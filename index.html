@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<!-- login form -->
+	<section id="login-form">
+		<div class="section"></div>
+		<main>
+			<center>
+				<h5 class="indigo-text">Sign in</h5>
+				<div class="section"></div>
+
+				<div class="container">
+					<div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+						<form class="col s12" method="post">
+							<div class='row'>
+								<div class='col s12'>
+								</div>
+							</div>
+
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate' type='email' name='email' id='email2' />
+									<label for='email'>Enter your email</label>
+								</div>
+							</div>
+
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate' type='password' name='password' id='password2' />
+									<label for='password'>Enter your password</label>
+								</div>
+								<label style='float: right;'>
+									<a class='pink-text' href='#!'>
+										<b>Forgot Password?</b>
+									</a>
+								</label>
+							</div>
+
+							<br />
+							<center>
+								<div class='row'>
+									<button type='button' id="btnLogin" name='btnLogin' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+								</div>
+							</center>
+						</form>
+					</div>
+				</div>
+				<button class="waves-effect waves-light btn modal-trigger" data-target="modal1">Crear Cuenta</button>
+			</center>
+		</main>
+	</section>
+	<!-- Agregando Modal para Crear Cuenta de usuario -->
+	<section id='sign-up-form '>
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<div class="container ">
+					<h5 class="indigo-text center">Sign up</h5>
+					<div class="container">
+						<div class="row">
+							<form class="col s12" method="post">
+								<div class='row'>
+									<div class='input-field col s12'>
+										<input class='validate' type='email' name='email' id='correo' />
+										<label for='email'>Email</label>
+									</div>
+								</div>
+
+								<div class='row'>
+									<div class='input-field col s12'>
+										<input class='validate' type='password' name='password' id='clave' />
+										<label for='password'>Password</label>
+									</div>
+								</div>
+
+								<br />
+								<center>
+									<div class='row'>
+										<button type='button' name='btn-sign-up' id="btn-sign-up" class='col s12 btn btn-large waves-effect indigo'>Enviar</button>
+									</div>
+								</center>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<!-- assets/js/materialize.min.js -->
+	<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+	<script src="assets/js/login.js"></script>
+	<script src=""></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    border-bottom-width: 0px;
+    border: 1px solid #441515;
+    box-shadow: 0 0px 0 0 #F44336;
+    color: #FF3B30;
+    font-weight: 500;
+    border-radius: 1em;
+}
